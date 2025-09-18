@@ -1,0 +1,11 @@
+return {
+  "folke/tokyonight.nvim",
+  lazy = false,      -- load during startup
+  priority = 1000,   -- make sure it runs before anything else
+  config = function()
+    require("tokyonight").setup({
+      style = "storm",
+    })
+    vim.cmd("colorscheme tokyonight")
+  end,
+}
