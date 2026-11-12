@@ -21,7 +21,7 @@ vim.keymap.set('n', '<leader>wc', '<C-w>c', opts)
 vim.keymap.set('n', '<leader>ws', '<C-w>s', opts) -- horizontal split
 vim.keymap.set('n', '<leader>wv', '<C-w>v', opts) -- vertical split
 
-vim.keymap.set('n', '<leader>gs', ':vertical G<CR>')
+vim.keymap.set('n', '<leader>gs', ':topleft vertical G<CR>')
 vim.keymap.set('n', '<leader>dv', ':DiffviewOpen<CR>')
 vim.keymap.set('n', '<leader>td', ':Telescope diagnostics<CR>')
 vim.keymap.set('n', '<leader>tv', ':vsplit | terminal<CR>')
